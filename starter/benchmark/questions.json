@@ -1,0 +1,238 @@
+[
+  {
+    "id": "D01",
+    "type": "paraphrase",
+    "split": "dev",
+    "question": "In the abstract, which principle does the paper say holds for the pair (C,V)?",
+    "expected_answer": "Faisant's equidistribution principle.",
+    "gold_source_id": "arxiv-2611.17120",
+    "gold_page": 1,
+    "evidence_quote": "Faisant’s equidistribution principle holds for ( C,V ).",
+    "filter": {
+      "section": "Abstract"
+    }
+  },
+  {
+    "id": "D02",
+    "type": "direct",
+    "split": "dev",
+    "question": "In the introduction, who is cited as proving an asymptotic count for integral points when K = Q?",
+    "expected_answer": "Birch.",
+    "gold_source_id": "arxiv-2611.17120",
+    "gold_page": 3,
+    "evidence_quote": "Birch proved the following asymptotic count for the integral points",
+    "filter": null
+  },
+  {
+    "id": "D03",
+    "type": "direct",
+    "split": "dev",
+    "question": "What method is used in Section 4 to deduce Theorem C and Corollary D?",
+    "expected_answer": "Motivic inclusion-exclusion.",
+    "gold_source_id": "arxiv-2611.17120",
+    "gold_page": 14,
+    "evidence_quote": "This is done via motivic inclusion-exclusion",
+    "filter": null
+  },
+  {
+    "id": "D04",
+    "type": "direct",
+    "split": "dev",
+    "question": "What does Section 3 study after introducing the circle method?",
+    "expected_answer": "The naive space M_W^e, or a generalization of it.",
+    "gold_source_id": "arxiv-2611.17120",
+    "gold_page": 14,
+    "evidence_quote": "Through section 3 ‘Circle method’ we study the naive space",
+    "filter": null
+  },
+  {
+    "id": "D05",
+    "type": "direct",
+    "split": "dev",
+    "question": "In the preliminaries, how does the paper define a partition of an integer N?",
+    "expected_answer": "A sequence of nonnegative multiplicities whose weighted sum is N.",
+    "gold_source_id": "arxiv-2611.17120",
+    "gold_page": 15,
+    "evidence_quote": "µi ≥ 0 such that ∑i≥1µii = N",
+    "filter": {
+      "section": "Preliminaries"
+    }
+  },
+  {
+    "id": "D06",
+    "type": "direct",
+    "split": "dev",
+    "question": "How does the paper define the length |µ| of a partition?",
+    "expected_answer": "The sum of its multiplicities, |µ| = Σ_i µ_i.",
+    "gold_source_id": "arxiv-2611.17120",
+    "gold_page": 15,
+    "evidence_quote": "the length |µ| := ∑ i≥1 µi",
+    "filter": null
+  },
+  {
+    "id": "D07",
+    "type": "direct",
+    "split": "dev",
+    "question": "According to the preliminaries, what is the expected dimension of the m-th jet scheme J_mX?",
+    "expected_answer": "(m + 1) dim X.",
+    "gold_source_id": "arxiv-2611.17120",
+    "gold_page": 24,
+    "evidence_quote": "one expects JmX to have dimension (m + 1) dimX",
+    "filter": null
+  },
+  {
+    "id": "D08",
+    "type": "direct",
+    "split": "dev",
+    "question": "What two components define a variety with exponential over S?",
+    "expected_answer": "An S-variety X and a map u: X → A^1_Z.",
+    "gold_source_id": "arxiv-2611.17120",
+    "gold_page": 25,
+    "evidence_quote": "a variety with exponential overS is a couple (X,u ) where X is an S-variety and u : X → A1Z is a map",
+    "filter": null
+  },
+  {
+    "id": "D09",
+    "type": "paraphrase",
+    "split": "dev",
+    "question": "In what setting do motivic Euler products play the role of ordinary Euler products in this paper?",
+    "expected_answer": "A geometric setting.",
+    "gold_source_id": "arxiv-2611.17120",
+    "gold_page": 27,
+    "evidence_quote": "with the goal of playing their role in a geometric setting",
+    "filter": {
+      "section": "Preliminaries"
+    }
+  },
+  {
+    "id": "D10",
+    "type": "direct",
+    "split": "dev",
+    "question": "What construction does the paper use as the basis for motivic Euler products?",
+    "expected_answer": "Configuration spaces.",
+    "gold_source_id": "arxiv-2611.17120",
+    "gold_page": 27,
+    "evidence_quote": "It is based on the configuration spaces",
+    "filter": null
+  },
+  {
+    "id": "D11",
+    "type": "direct",
+    "split": "dev",
+    "question": "In Section 3, which contributions do the major and minor arcs produce, respectively?",
+    "expected_answer": "The major arcs give the main term; the minor arcs give the error term.",
+    "gold_source_id": "arxiv-2611.17120",
+    "gold_page": 31,
+    "evidence_quote": "major and minor arcs (the former will give rise to the main term of the estimation while the latter will end up in the error term)",
+    "filter": null
+  },
+  {
+    "id": "D12",
+    "type": "direct",
+    "split": "dev",
+    "question": "Which Weyl inequality version is named first before the paper describes its scope?",
+    "expected_answer": "The global version.",
+    "gold_source_id": "arxiv-2611.17120",
+    "gold_page": 31,
+    "evidence_quote": "a ‘global’ one",
+    "filter": null
+  },
+  {
+    "id": "D13",
+    "type": "direct",
+    "split": "dev",
+    "question": "What value does the paper assign to η_e before defining the major arcs?",
+    "expected_answer": "η_e = e − l′ − 2g + 1.",
+    "gold_source_id": "arxiv-2611.17120",
+    "gold_page": 36,
+    "evidence_quote": "ηe :=e −l′ − 2g + 1",
+    "filter": null
+  },
+  {
+    "id": "D14",
+    "type": "direct",
+    "split": "dev",
+    "question": "What does Proposition 3.5.4 express the major-arc contribution Γ_M as?",
+    "expected_answer": "A renormalized sum of varieties with exponentials.",
+    "gold_source_id": "arxiv-2611.17120",
+    "gold_page": 48,
+    "evidence_quote": "expresses Γ M as a renormalised sum of varieties with exponentials",
+    "filter": null
+  },
+  {
+    "id": "D15",
+    "type": "conditional",
+    "split": "dev",
+    "question": "In Section 4, when d = 2, what lower bound on n replaces n ≥ 4?",
+    "expected_answer": "n ≥ 8.",
+    "gold_source_id": "arxiv-2611.17120",
+    "gold_page": 78,
+    "evidence_quote": "when d = 2 we request n ≥ 8 instead of n ≥ 4",
+    "filter": {
+      "section": "The space of morphisms"
+    }
+  },
+  {
+    "id": "T01",
+    "type": "direct",
+    "split": "test",
+    "question": "In the circle-method section, which inequality is used to control the minor-arc contribution?",
+    "expected_answer": "The global version of Weyl's inequality.",
+    "gold_source_id": "arxiv-2611.17120",
+    "gold_page": 70,
+    "evidence_quote": "possible thanks to the global version of Weyl’s inequality",
+    "filter": {
+      "section": "Circle method"
+    }
+  },
+  {
+    "id": "T02",
+    "type": "direct",
+    "split": "test",
+    "question": "How does Section 3.7 define ρ in terms of the ρ_i?",
+    "expected_answer": "ρ = max_{0 ≤ i ≤ 3} ρ_i.",
+    "gold_source_id": "arxiv-2611.17120",
+    "gold_page": 75,
+    "evidence_quote": "maximum of all the ρi by ρ := max 0≤i≤3 ρi",
+    "filter": null
+  },
+  {
+    "id": "T03",
+    "type": "conditional",
+    "split": "test",
+    "question": "In Section 4.1, what group is used to quotient the parametrizing space to obtain W?",
+    "expected_answer": "G_{m,P|S}.",
+    "gold_source_id": "arxiv-2611.17120",
+    "gold_page": 83,
+    "evidence_quote": "Gm,P|S =∏ p∈|S | Gm,P|lpp",
+    "filter": {
+      "section": "The space of morphisms"
+    }
+  },
+  {
+    "id": "T04",
+    "type": "direct",
+    "split": "test",
+    "question": "What is the dimension formula given for Hom^e(C,V|{φ}) in the proof?",
+    "expected_answer": "(n − d + 1)e − (n − 1)(g − 1) − (n − 1)l.",
+    "gold_source_id": "arxiv-2611.17120",
+    "gold_page": 94,
+    "evidence_quote": "the complex dimension of Hom e(C,V |{φ}) is (n −d + 1)e − (n − 1)(g − 1) − (n − 1)l",
+    "filter": {
+      "section": "The space of morphisms"
+    }
+  },
+  {
+    "id": "T05",
+    "type": "direct",
+    "split": "test",
+    "question": "According to the abstract, what does the result provide for sufficiently large e?",
+    "expected_answer": "The dimension and decomposition into irreducible components of the moduli space.",
+    "gold_source_id": "arxiv-2611.17120",
+    "gold_page": 1,
+    "evidence_quote": "This provides the dimension and decomposition into irreducible components",
+    "filter": {
+      "section": "Abstract"
+    }
+  }
+]

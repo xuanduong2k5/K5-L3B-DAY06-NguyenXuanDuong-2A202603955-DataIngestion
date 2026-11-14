@@ -1,0 +1,66 @@
+{
+  "document_id": "arxiv-2611.17120",
+  "run_started_at_utc": "2026-11-14T03:25:42.375356+00:00",
+  "total_elapsed_seconds": 26.825,
+  "physical_pages": 98,
+  "readable_content_pages": 94,
+  "content_characters": 180529,
+  "model_load_seconds": 10.326,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dimensions": 384,
+  "package_versions": {
+    "pypdf": "6.21.4",
+    "psycopg": "3.3.8",
+    "sentence-transformers": "5.7.0"
+  },
+  "vector_store": "PostgreSQL + pgvector",
+  "database_versions": {
+    "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+    "pgvector": "0.8.7"
+  },
+  "metric": "cosine distance; exact search",
+  "cost_usd": 0,
+  "strategies": {
+    "A": {
+      "chunks": 293,
+      "min_chars": 102,
+      "median_chars": 800,
+      "max_chars": 800,
+      "total_chars": 200354,
+      "ingest_seconds": 7.244,
+      "embedding_reused_from": null
+    },
+    "B": {
+      "chunks": 198,
+      "min_chars": 83,
+      "median_chars": 1040.5,
+      "max_chars": 1200,
+      "total_chars": 180425,
+      "ingest_seconds": 4.735,
+      "embedding_reused_from": null
+    },
+    "C": {
+      "chunks": 198,
+      "min_chars": 83,
+      "median_chars": 1040.5,
+      "max_chars": 1200,
+      "total_chars": 180425,
+      "ingest_seconds": 0.074,
+      "embedding_reused_from": "B"
+    }
+  },
+  "automatic_filter_compliance": {
+    "A": {
+      "compliant_queries": 1,
+      "filtered_queries": 8
+    },
+    "B": {
+      "compliant_queries": 1,
+      "filtered_queries": 8
+    },
+    "C": {
+      "compliant_queries": 8,
+      "filtered_queries": 8
+    }
+  }
+}

@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed character windows,800,100,document_id/source/page/section,none,sentence-transformers/all-MiniLM-L6-v2,"Baseline; fixed windows may split mathematical context.",4/15,7/15,0/5,3/5,"293 chunks; 7.244 s ingest; exact cosine."
+B,paragraph-aware,1200,0,document_id/source/page/section,none,sentence-transformers/all-MiniLM-L6-v2,"Paragraph boundaries may improve evidence coherence vs A.",6/15,6/15,0/5,2/5,"198 chunks; 4.735 s ingest; same chunks as C."
+C,paragraph-aware,1200,0,document_id/source/page/section,section when question specifies it,sentence-transformers/all-MiniLM-L6-v2,"Metadata filtering may improve scoped retrieval vs B.",7/15,8/15,1/5,4/5,"198 chunks; 0.074 s storage/update (embeddings reused from B); filter compliance 8/8; selected on dev."
